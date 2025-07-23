@@ -1,0 +1,105 @@
+/* Apply modern gradient and font */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #6c5ce7, #00cec9);
+    text-align: center;
+    margin: 0;
+    padding-top: 80px;
+}
+
+/* Headings */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Upload box styling */
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+/* File input */
+input[type=file] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Submit button */
+input[type=submit] {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Result page box */
+.result-box {
+    display: flex;
+    height: 76vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);    
+
+}  
+
+/* Image */
+img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+/* Prediction text */
+.prediction {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28f395;
+}
+
+/* Back button */
+.back {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back:hover {
+    background: #0056b3;
+}
